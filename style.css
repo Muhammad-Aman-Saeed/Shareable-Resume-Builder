@@ -1,0 +1,85 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #c2a3a3;
+}
+
+h1 {
+    text-align: center;
+    color:#4a5547;
+
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+    background-color: #67b88b;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(7, 12, 12);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #c16669;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:rgb(190, 195, 157);
+
+}
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #674347;
+
+}
+label {
+    display: block;
+    margin-top: 10px;
+    color: #5a3b3b;
+}
+
+input,textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #29dc19;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+}
+
+button {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(109, 206, 100);
+    color: rgb(168, 76, 76);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover{
+    background-color: #c5a586;
+    
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #a65267;
+    border-radius: 8px;
+    background-color: #b7c9d0;
+    box-shadow: 0 4px 8px rgba(107, 71, 71, 0.5);   
+}
+
+#resumeOutput h2 {
+    color:#618b5c ;
+}
